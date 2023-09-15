@@ -1,0 +1,33 @@
+.container2{
+ 
+    background-color: #a28089;
+   padding: 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+   
+  }
+  
+  
+  
+  .navbar-brand {
+    
+    font-size: 18px; /* Adjust the font size for the brand */
+  }
+  
+  .nav-link {
+    font-size: 18px; /* Adjust the font size for the navigation links */
+    margin-right: 20px; /* Add some spacing between the links */
+  }
+  
+  /* Change the color of the links on hover */
+  .nav-link:hover {
+    color: #007bff;
+  }
+  .my2{
+    width: 100%;
+    
+    height: 100vh;
+  }

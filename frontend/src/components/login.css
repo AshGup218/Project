@@ -1,0 +1,83 @@
+/* Add this CSS to your stylesheets or use CSS modules in your React component */
+.cotn_principal {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfd8dc+0,607d8b+100,b0bec5+100 */
+    background-image: url('https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .cotn_principal > img {
+        width: 100%;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        opacity: 0.2;
+        animation-name: animar_fondo;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+
+
+
+
+.login-card {
+    width: 500px;
+    margin: 150px 100px 100px 300px;
+    padding: 20px 20px 20px 20px;
+    border: 1.4px solid #808080;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    background-color: #fff;
+    text-align: center;
+}
+
+    .login-card h2 {
+        margin-top: 0;
+    }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        margin-top:30px;
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 6px 6px 0px ;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    margin-top:10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+    .my{
+        color: black;
+        margin-top:30px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        
+    }
+    .my:hover {
+        color: #007bff;
+    }
